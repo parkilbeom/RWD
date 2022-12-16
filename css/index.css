@@ -543,11 +543,14 @@ input[type="search"] {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: var(--spacing-md);
   }
-
+  
   .menu__link {
+    display: block;
+    padding: var(--spacing-md), var(--spacing-lg);
     color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 700;
     text-shadow: 1px 1px 0 var(--black), -1px -1px 0 var(--black);
   }
 
