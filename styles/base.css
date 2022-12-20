@@ -28,7 +28,7 @@ img {
   height: auto;
 }
 
-video, iframe {
+video {
   width: 100%;
   height: auto;
 }
@@ -42,7 +42,6 @@ video, iframe {
 }
 
 .iframeWrapper {
-  background-color: blueviolet;
   position: relative;
 }
 .iframeRatio-21-9 {
@@ -59,9 +58,9 @@ video, iframe {
 }
 
 .iframeWrapper iframe {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   height: 100%;
 }
